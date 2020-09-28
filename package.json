@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "antlr4": "^4.8.0"
+  },
+  "name": "compilerexp",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "antlr": "java -jar ./bin/antlr-4.8-complete.jar -Dlanguage=JavaScript",
+    "start": "node ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
